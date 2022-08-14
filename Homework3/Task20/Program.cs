@@ -4,8 +4,8 @@
 // A (3,6,8); B (2,1,-7), -> 15.84
 // A (7,-5, 0); B (1,-1,9) -> 11.53
 
-Console.WriteLine("Введите координаты точки А и точки B");
-int[] arr= Console.ReadLine().Split().Select(int.Parse).ToArray();
+Console.WriteLine("Введите координаты точки А и точки B через пробел");
+int[] arr= Console.ReadLine()!.Split().Select(int.Parse).ToArray();
  
 int xa = arr[0];
 int ya = arr[1];

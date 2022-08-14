@@ -5,7 +5,7 @@
 // 23432 -> да
 
 Console.WriteLine("Введите число ");
-string input = Console.ReadLine();
+string input = Console.ReadLine()!;
 char[] inputarray = input.ToCharArray();
 Array.Reverse(inputarray);
 string output = new string(inputarray);
