@@ -7,9 +7,16 @@
 Console.WriteLine("Введите число");
 int number= Convert.ToInt32(Console.ReadLine());
 int result = 0;
+if (number >0)
+{
     while (number> 0)
     {
         result = result + number% 10;
         number= number/10 ;
     }
  Console.WriteLine($"Сумма цифр будет равна {result}");
+}
+else 
+{
+    Console.WriteLine($"Error. Введите число больше 0");
+}
