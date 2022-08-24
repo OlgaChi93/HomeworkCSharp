@@ -14,7 +14,7 @@ var b2 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите значение k2 ");
 var k2 = Convert.ToDouble(Console.ReadLine());
 
-if (k1 == k2) Console.WriteLine("Прямые параллельны, точек пересечения нет.");
+if (k1 == k2 & b1 != b2) Console.WriteLine("Прямые параллельны, точек пересечения нет.");
 else if (k1 == k2 & b1 == b2) Console.WriteLine("Прямые совпадают.");
 else
 {
