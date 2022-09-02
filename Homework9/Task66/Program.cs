@@ -5,7 +5,7 @@
 // M = 1; N = 15 -> 120
 // M = 4; N = 8. -> 30
 
-
+Console.WriteLine("Найдём сумму натуральных элементов в промежутке от M до N. ");
 Console.WriteLine("Введите число M ");
 int M = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число N ");
